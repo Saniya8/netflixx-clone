@@ -8,7 +8,7 @@ const Signin = () => {
 
     return (
         <div>
-            <div style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(${heroimg})` }}>
+            <div style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(${heroimg})`, backgroundSize: 'cover' }}>
                 <div>
                     <Link to="/">< img className='h-24 sm:h-40 cursor-pointer justify-start items-start' src={netflix} alt='netflix' /></Link>
                 </div>

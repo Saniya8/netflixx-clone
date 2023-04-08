@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar';
 
 const Hero = () => {
   return (
-    <div className='w-full h-full flex flex-col flex-wrap bg-no-repeat sm:pb-40' style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(${heroimg})`}}>
+    <div className='w-full h-full flex flex-col flex-wrap bg-no-repeat sm:pb-40' style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(${heroimg})`, backgroundSize: 'cover'}}>
       <Navbar />
       <div className='flex flex-wrap justify-center items-center pt-32 sm:pt-44 px-10 space-y-4 flex-col gap-3'>
         <div>
